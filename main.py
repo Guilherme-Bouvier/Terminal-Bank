@@ -1,6 +1,8 @@
 from Usuario import criando_conta, acessar_conta
 from Conta import Conta
 from historia import historia_bank
+from Caixa_Eletronico import menu_caixa
+
 
 import time
 tempo = 3
@@ -29,6 +31,7 @@ while True:
             print("=" * 40)
             print ("\n")
             acessar_conta()
+            
             time.sleep(tempo)
 
         case "2":

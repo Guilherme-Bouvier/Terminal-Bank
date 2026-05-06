@@ -90,14 +90,17 @@ def acessar_conta():
     dados = carregar_dados()
 
     while tentativas < 3:
-        email = input("Email: ")
+        cpf = input("Cpf: ")
         senha = input("Senha: ")
 
-        if email in dados and dados[email]["senha"] == senha:
-            print(f"Bem-vindo, {dados[email]['nome']}!")
-            return
+        if cpf in dados and dados[cpf]["senha"] == senha:
+            print(f"Bem-vindo, {dados[cpf]['nome']}!")
+            return dados [cpf]
+        
         else:
             tentativas += 1
             print("Login inválido.")
 
     print("Conta bloqueada!")
+    
+# def trocar_senha ():
