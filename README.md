@@ -1,12 +1,14 @@
-# Terminal Bank 🏦💻
+# Terminal Bank 🏦
 
-Sistema bancário via terminal desenvolvido para praticar conceitos de programação, orientação a objetos e manipulação de operações financeiras em ambiente CLI.
+Sistema bancário desenvolvido em **Python** com interface via terminal (CLI), criado com o objetivo de praticar lógica de programação, Programação Orientada a Objetos e operações bancárias básicas.
 
 ---
 
 ## 📌 Sobre o projeto
 
-O **Terminal Bank** é uma aplicação executada no terminal que simula funcionalidades básicas de um banco digital, permitindo operações como:
+O **Terminal Bank** simula funcionalidades de um banco digital diretamente no terminal, permitindo ao usuário realizar operações financeiras e gerenciar contas de forma simples e intuitiva.
+
+Entre as principais funcionalidades estão:
 
 - Criação de contas
 - Login de usuários
@@ -14,15 +16,15 @@ O **Terminal Bank** é uma aplicação executada no terminal que simula funciona
 - Saques
 - Transferências
 - Consulta de saldo
-- Histórico de operações
+- Histórico de transações
 
-O projeto foi desenvolvido com foco em aprendizado, organização de código e simulação de regras de negócio bancárias.
+O projeto foi desenvolvido com foco em aprendizado, organização de código e aplicação de regras de negócio.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
-- Java
+- Python 3
 - Programação Orientada a Objetos (POO)
 - Git & GitHub
 
@@ -32,32 +34,30 @@ O projeto foi desenvolvido com foco em aprendizado, organização de código e s
 
 ```bash
 Terminal-Bank/
-├── src/
-│   ├── application/
-│   ├── entities/
-│   ├── services/
-│   └── utils/
-├── README.md
-└── ...
+├── bank/
+├── data/
+├── main.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
 ## ⚙️ Funcionalidades
 
-### 👤 Usuário
-- Cadastro de conta
-- Login no sistema
-- Consulta de informações da conta
+### 👤 Usuários
+- Criar conta bancária
+- Fazer login
+- Consultar dados da conta
 
 ### 💰 Operações bancárias
-- Depositar valores
-- Sacar dinheiro
+- Depositar dinheiro
+- Sacar valores
 - Transferir entre contas
-- Ver saldo disponível
+- Verificar saldo
 
 ### 📜 Histórico
-- Registro das transações realizadas
+- Registro de transações realizadas
 
 ---
 
@@ -65,8 +65,10 @@ Terminal-Bank/
 
 ### Pré-requisitos
 
-- Java JDK instalado
+- Python 3 instalado
 - Git instalado
+
+---
 
 ### Clone o repositório
 
@@ -74,22 +76,22 @@ Terminal-Bank/
 git clone https://github.com/Guilherme-Bouvier/Terminal-Bank.git
 ```
 
-### Acesse a pasta
+### Entre na pasta do projeto
 
 ```bash
 cd Terminal-Bank
 ```
 
-### Compile o projeto
+### Execute o sistema
 
 ```bash
-javac Main.java
+python main.py
 ```
 
-### Execute
+> Em alguns sistemas pode ser necessário usar:
 
 ```bash
-java Main
+python3 main.py
 ```
 
 ---
@@ -98,17 +100,16 @@ java Main
 
 Este projeto aborda diversos conceitos importantes:
 
-- Encapsulamento
-- Herança
-- Polimorfismo
-- Organização em camadas
+- Programação Orientada a Objetos
+- Manipulação de arquivos
+- Estruturação de projetos Python
 - Regras de negócio
-- Manipulação de dados
+- Organização modular
 - Interação via terminal
 
 ---
 
-## 📸 Exemplo no terminal
+## 📸 Exemplo de uso
 
 ```bash
 =========================
@@ -130,7 +131,7 @@ Escolha uma opção:
 
 ## 📈 Objetivo do projeto
 
-O principal objetivo do projeto é consolidar conhecimentos em desenvolvimento backend e lógica de programação através da construção de um sistema bancário simples e funcional.
+O objetivo principal deste projeto é fortalecer conhecimentos em desenvolvimento backend utilizando Python, simulando operações reais de um sistema bancário.
 
 ---
 
@@ -139,7 +140,8 @@ O principal objetivo do projeto é consolidar conhecimentos em desenvolvimento b
 Contribuições são bem-vindas!
 
 1. Faça um fork do projeto
-2. Crie uma branch
+
+2. Crie uma branch para sua feature
 
 ```bash
 git checkout -b minha-feature
@@ -151,7 +153,7 @@ git checkout -b minha-feature
 git commit -m "feat: minha nova feature"
 ```
 
-4. Faça push
+4. Faça push para sua branch
 
 ```bash
 git push origin minha-feature
