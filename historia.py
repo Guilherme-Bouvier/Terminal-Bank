@@ -1,14 +1,25 @@
 def historia_bank():
-    print ( "O Terminal Bank nasceu de uma ideia simples: tornar o acesso aos serviços financeiros mais direto ")
-    print ( " rápido e acessível")
-    print ( " para todos. Fundado por um pequeno grupo de entusiastas da tecnologia, o banco começou como um projeto")
-    print ( "  experimental, criado em um terminal de computador, onde cada comando representava uma nova possibilidade.\n")
 
-    print ( "No início, tudo era básico — consultas simples, operações limitadas e poucos usuários. Mas o que faltava em")
-    print ( "estrutura, sobrava em inovação e vontade de evoluir. Com o tempo, o Terminal Bank foi crescendo, aprimorando")
-    print ( "seus sistemas e conquistando a confiança de seus usuários graças à sua simplicidade e eficiência.\n")
+    print("=" * 130)
+    print("                                       ###   O TERMINAL BANK   ###")
+    print("=" * 130)
 
-    print ( "Hoje, o Terminal Bank simboliza a união entre tecnologia e praticidade, mostrando que mesmo as ideias mais ")
-    print ( "simples podem se transformar em grandes soluções quando há dedicação por trás. Mesmo mantendo suas raízes no")
-    print ( "ambiente de terminal, o banco continua evoluindo, sempre com o objetivo de oferecer uma experiência cada")
-    print ("vez melhor para seus clientes.")
+    print("\n\nO Terminal Bank nasceu como um checkpoint de fixação dentro de uma disciplina de Programação Orientada a Objetos (POO),")
+    print("com o objetivo de aplicar na prática os conceitos de Encapsulamento, Herança e Polimorfismo.\n")
+
+    print("Criado como um projeto em terminal, ele simulava um sistema bancário simples, onde cada comando representava uma operação real,")
+    print("permitindo ao desenvolvedor compreender melhor a estrutura de sistemas orientados a objetos.\n")
+
+    print("O sistema foi construído seguindo regras bem definidas:")
+    print("1 - Criar clientes e abrir contas bancárias de forma organizada.")
+    print("2 - Efetuar depósitos e saques com validações e segurança.")
+    print("3 - Aplicar herança com ContaCorrente e ContaPoupanca.")
+    print("4 - Utilizar encapsulamento para proteger dados sensíveis dos usuários.")
+    print("5 - Implementar polimorfismo para comportamentos diferentes entre tipos de conta.")
+    print("6 - Executar todas as operações através de um menu de Caixa Eletrônico no terminal.\n")
+
+    print("Com o tempo, o Terminal Bank evoluiu de um simples exercício acadêmico para uma simulação funcional de sistema bancário,")
+    print("reforçando a importância da organização de código, lógica estruturada e boas práticas de programação.\n")
+
+    print("Hoje, ele representa a união entre aprendizado e prática, mostrando como conceitos de POO podem ser aplicados em sistemas reais,")
+    print("mesmo dentro de um ambiente simples de terminal.")
