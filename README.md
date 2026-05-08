@@ -34,10 +34,24 @@ O projeto foi desenvolvido com foco em aprendizado, organização de código e a
 
 ```bash
 Terminal-Bank/
-├── bank/
-├── data/
-├── main.py
-├── requirements.txt
+├── main.py                     # Arquivo principal do sistema
+│
+├── models/                     # Modelos e entidades do banco
+│   ├── Conta.py
+│   ├── ContaCorrente.py
+│   ├── ContaPoupança.py
+│   └── Usuario.py
+│
+├── services/                   # Regras de negócio e operações
+│   ├── Caixa_Eletronico.py
+│   ├── extrato.py
+│   └── historia.py
+│
+├── utils/                      # Funções auxiliares e validações
+│   └── verificador_c.py
+│
+├── __pycache__/                # Arquivos compilados automaticamente pelo Python
+│
 └── README.md
 ```
 
